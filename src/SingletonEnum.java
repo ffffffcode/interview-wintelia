@@ -11,4 +11,8 @@ public enum SingletonEnum {
 	public void setName(String name) {
 		this.name = name;
 	}
+
+	public void connect() {
+		System.out.println("service is running...");
+	}
 }

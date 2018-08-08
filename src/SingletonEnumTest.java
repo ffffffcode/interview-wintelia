@@ -7,7 +7,7 @@ public class SingletonEnumTest {
 		Runnable target = new Runnable() {
 			@Override
 			public void run() {
-				System.out.println(SingletonEnum.INSTANCE.hashCode());
+				SingletonEnum.INSTANCE.connect();
 			}
 		};
 
